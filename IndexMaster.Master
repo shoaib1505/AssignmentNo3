@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="IndexMaster.master.cs" Inherits="Assignment3.IndexMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css"  href="Style.css" />
+    <link rel ="stylesheet" type="text/css" href="StyleSheet1.css" />
+</head>
+<body>
+    <header class="header">
+        <nav class="MainHeader">
+            <p>
+                <a href ="Home.aspx" >Home</a>
+                <a href ="Vendor1.aspx" >Vendor</a>
+                <a href ="AssetList.aspx" >Asset List</a>
+                <a href ="New Asset.aspx" >New Asset</a>
+                <a href ="Report.aspx" >Report</a>
+            </p>
+        </nav>
+        <hr />
+    </header>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <footer class="footer">
+        <h1>@Assignment 3</h1>
+        
+    </footer>
+</body>
+</html>

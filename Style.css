@@ -1,0 +1,31 @@
+﻿body {
+}
+.MainHeader {
+    background-color: aquamarine;
+    display:flex;
+    margin-right:40px;
+}
+
+.footer {
+    margin-bottom: 0px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+.header {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    
+}
+.nav a{
+    margin-right:10px;
+}
